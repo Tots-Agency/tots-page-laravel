@@ -42,7 +42,7 @@ class TotsPage extends Model
 {
     protected $table = 'tots_page';
     
-    //protected $casts = ['data' => 'array'];
+    protected $casts = ['data' => 'array'];
     /**
      * Indicates if the model should be timestamped.
      *
